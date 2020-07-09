@@ -1,12 +1,13 @@
-package com.example.baseapp
+package com.example.baseapp.ui.logout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.baseapp.R
 
-class MainActivity : AppCompatActivity() {
+class LogoutActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_logout)
     }
 }
